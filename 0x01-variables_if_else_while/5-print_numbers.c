@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - prints numbers of base 10
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int i;
+
+	for (i = 0; i < 20; i++)
+	printf("%d", i);
+	printf("\n");
+	return (0);
+}
