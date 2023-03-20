@@ -2,16 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - prints numbers of base 10
+ * main - Print the alphabet in reverse
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	char low;
 
-	for (i = 0; i < 10; i++)
-	printf("%d", i);
-	printf("\n");
+	for (low = 'z'; low >= 'a'; low--)
+	putchar(low);
+	putchar('\n')
 	return (0);
 }
