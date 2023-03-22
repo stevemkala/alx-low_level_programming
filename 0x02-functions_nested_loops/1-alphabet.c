@@ -1,11 +1,17 @@
 #include "main.h"
 /**
- * main - prints alphabet
+ * print_alphabet - prints alphabet
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		_putchar(letter);
+	}
+	_putchar('\n');
 	return (0);
 }
