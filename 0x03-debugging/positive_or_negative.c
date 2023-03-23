@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - entry point
+ * positive_or_negative - entry point
  *
  * Return: 0
  */
