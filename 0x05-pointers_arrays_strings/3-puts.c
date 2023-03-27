@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - prints a string followef by a new line
- * @str: 
+ * @str: string
  * Return: Always 0(Success)
  */
 void _puts(char *str)
