@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_name - prints name
+ * print_name - prints name using pointer function
  * @name: string
  * @f: pointer to function
- * Return: Always 0
+ * Return: nothing
  */
 
 void print_name(char *name, void (*f)(char *))
